@@ -1,2 +1,2 @@
-# template_python_project
+# Template Python Project
 Template for a Python project.
