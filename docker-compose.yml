@@ -1,9 +1,9 @@
 services:
-  template_app:
+  app:
     build:
       dockerfile: Dockerfile
     image:
-      python_template
+      app
     depends_on:
       database:
         condition: service_healthy
@@ -13,5 +13,5 @@ services:
       postgres
 
 networks:
-  template_network:
+  main_network:
     driver: brigde
