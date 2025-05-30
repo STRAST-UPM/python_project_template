@@ -1,10 +1,11 @@
-FROM python:3.10-alpine
+FROM python:3.12-bookworm
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/project
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./app/* .
+COPY ./code ./code
 
-CMD [ "python", "./main.py" ]
+WORKDIR /usr/src/project/code
+CMD [ "python", "main.py" ]
