@@ -84,6 +84,26 @@ PostgreSQL database with a web administration console accesible in this
 [URL](http://localhost:8080) when deployed. The database and administration
 console have permanent storage via Docker volumes.
 
+- Build project image
+```shell
+sudo docker build -t user/python_project_template:latest .
+```
+
+- Push image to repository
+```shell
+sudo docker push user/python_project_template:latest
+```
+
+- Run project just project container
+```shell
+sudo docker run -d --name python_project_template user/python_project_template:latest
+```
+
+- Start deployment
+```shell
+sudo docker compose up -d
+```
+
 ---
 
 Developed by the research group Sistemas de Tiempo Real y Arquitectura de

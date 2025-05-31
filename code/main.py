@@ -1,3 +1,8 @@
+# external imports
+
+# internal imports
+from src.classes.modules.hello_metal import HelloMetal
 
 if __name__ == '__main__':
-    print("hola mundo")
+    helloer: HelloMetal = HelloMetal()
+    helloer.print_message()
