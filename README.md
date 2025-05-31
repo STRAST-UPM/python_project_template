@@ -120,3 +120,19 @@ department (UPM).
 <img alt="logo_dit" src="./docu/statics/dit_logo.gif" width="80"/>
 
 ![upm_logo](./docu/statics/upm_logo.png)
+
+---
+
+LICENSE 
+
+This software is licensed under Creative Common 
+Attribution-NonCommercial-ShareAlike 4.0 International. You may not use this
+software except in compliance with this license.
+
+Unless required by applicable law or agreed to in writing, software distributed 
+under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR 
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+python_project_template © 2025 by STRAST is licensed under Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 International.
