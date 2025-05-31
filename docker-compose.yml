@@ -1,10 +1,10 @@
 services:
-  project:
+  python_project:
     build:
       context: .
       dockerfile: Dockerfile
     image:
-      project
+      user/python_project_template
     networks:
       - main_network
 
