@@ -1,10 +1,11 @@
 services:
-  python_project:
+  python_project_template:
     build:
       context: .
       dockerfile: Dockerfile
     image:
       ghcr.io/strast-upm/python_project_template
+    container_name: python_project_template
     networks:
       - main_network
 
