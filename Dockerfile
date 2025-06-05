@@ -4,9 +4,9 @@ LABEL org.opencontainers.image.source=https://github.com/STRAST-UPM/python_proje
 
 WORKDIR /usr/src/python_project/src
 
+COPY ./code/src .
+
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
-
-COPY ./code/src .
 
 CMD [ "python", "main.py" ]
