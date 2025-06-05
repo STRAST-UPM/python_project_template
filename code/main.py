@@ -1,7 +1,7 @@
 # external imports
 
 # internal imports
-from modules.hello_metal import HelloMetal
+from src.modules.hello_metal import HelloMetal
 
 if __name__ == '__main__':
     helloer: HelloMetal = HelloMetal()
