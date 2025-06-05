@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image:
-      user/python_project_template
+      ghcr.io/strast-upm/python_project_template
     networks:
       - main_network
 
